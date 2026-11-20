@@ -1,0 +1,13 @@
+[project]
+name = "github-google-scraper"
+version = "0.1.0"
+description = "Scrape repositories of the Google organization on GitHub into SQLite"
+readme = "README.md"
+authors = [
+    { name = "takuma-shishido", email = "130330524+takuma-shishido@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "requests>=2.34.2",
+]
