@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 生成される DB
+*.db
